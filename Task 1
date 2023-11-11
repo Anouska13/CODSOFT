@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightgrey;
+        }
+        header {
+            background: rgb(131,58,180);
+            background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,97,29,1) 17%, rgba(252,176,69,1) 100%); ;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 2em;
+            background-color: lightyellow;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: lightcyan;
+            color: black;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Landing Page</h1>
+        <p>Welcome to our world of creativity!</p>
+    </header>
+    <section>
+        <h2><u>About Us</u></h2>
+        <p><h4>We are passionate about achieving better results for our clients.</h3>
+        At CreaZone you can surf through the most affordable and pinterest-worthy stuffs for all age groups.<br> It is a hub for those who like to give an aesthetic elevation to their lives.</p>
+    <div>
+    <align="right"><img src="https://th.bing.com/th/id/R.3b954bc6ddc58972e639a2006a80ae46?rik=L%2bgdw6z3WqCkSQ&riu=http%3a%2f%2fmssbizsolutions.com%2fwp-content%2fuploads%2f2017%2f01%2fCreative-Thinking-Training-in-the-Philippines.jpg&ehk=rPCyHOoWqucSw4qjCGi5%2bgApbhMyBct%2fNk2Xt1Hzi2E%3d&risl=&pid=ImgRaw&r=0" alt="pic" height="200" width="200"/></align>
+    </div>
+    </section>
+    <section>
+        <h2><u>Our Services</u></h2>
+        <ol>
+            <li>Charms</li>
+            <li>Notebooks</li>
+            <li>Sipper bottles</li>
+            <li>Pouches</li>
+            <li>Cushions</li>
+            <li>Photo frames</li>
+            <li>Coffee mugs</li>
+        </ol>
+    </section>
+    <section>
+        <h2><u>Contact Us</u></h2>
+        <p>For more information, please contact us at <a href="mailto:creazone@gmail.com">creazone@gmail.com</a>.</p>
+    </section>
+    <footer>
+        &copy; 2023 CreaZone
+    </footer>
+</body>
+</html>
