@@ -1,9 +1,7 @@
 //Landing page//
 
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Landing Page</title>
     <style>
         body {
@@ -75,11 +73,8 @@
 
 //About page//
 
-<!DOCTYPE html>
-<html lang="en">
+<html lang>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About My Bookstore</title>
     <style>
         body {
@@ -171,11 +166,8 @@
 
 //Contact page//
 
-<!DOCTYPE html>
-<html lang="en">
+<html lang>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <style>
         body {
