@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <head>
         <title>
@@ -9,14 +8,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
         <style>
-
             *{
                 box-sizing: border-box;
                 margin: 0%;
                 padding: 0%;
             }
-
-
             .bg{
                 background-color: #fff7eb;
                 background-repeat: no-repeat;
@@ -193,7 +189,7 @@
                 float: left;
                 position: relative;
                 top: 115px;
-                left: 200px;
+                left: 20px;
                 height: 382px;
                 width: 244px;
                 outline: 10px solid rgb(255, 255, 255);
@@ -272,8 +268,7 @@
         </style>
     </head>
     <body>
-        <div class="bg">
-            
+        <div class="bg">            
             <menu class="wrapper">
                 <div id="mySidepanel" class="sidepanel">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;Close</a>
@@ -281,24 +276,19 @@
                 <a href="#About">Skill Sets</a>
                 <a href="#Interests">Interests</a>
                 <a href="#Contact">Get In Touch</a>
-              </div>
-              
+              </div>              
               <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
             </menu>
             <div class="content">   
             </div>
-
-           
-
             <section id="Portfolio">
                 <div>
                     <!-- <div id="dp1">
                     <img src="https://scontent.fccu1-1.fna.fbcdn.net/v/t39.30808-6/272132004_225254396486874_7101895277381810411_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=RojZc2BxA_0AX86dj3W&_nc_ht=scontent.fccu1-1.fna&oh=00_AT-BggQ43YNC480JBcFHM_heZ7626aeObvStYnbCgtNA1g&oe=61F0961E" alt="Akash Photo">
                 </div> -->
                 <div id="card">
-                    <img id="avatar" src="C:\Users\SAYANDIP\Downloads\processed-3f1de4a2-07dd-42da-8b6d-b248b8d3e7e3_4bq3uHKU.jpeg" alt="Avatar">
-                    <p style="font-size: 20px;"></p>
-                    
+                    <img id="avatar" src="https://th.bing.com/th/id/OIP.qUaAXybGCZ9iJYRScfp41gAAAA?rs=1&pid=ImgDetMain" alt="Avatar">
+                    <p style="font-size: 20px;"></p>                   
                 </div>
                 </div>
                 <div id="portpara">
@@ -309,28 +299,24 @@
                         Beyond the academic realm, I possess a versatile skill set. Proficient in scientific paper writing, I am equally adept at navigating the worlds of marketing and PR campaigns. My presentation skills, honed through diverse experiences, enable me to articulate complex concepts with clarity.<br><br>
                         These interests, along with my academic pursuits, shape me into a well-rounded individual, eager to contribute meaningfully to the fascinating intersection of biotechnology and innovation. As of now I don't have much acomplishments but you can check my linkdin profile here at -
                     </p>
-                    <p><a href="https://www.linkedin.com/in/anouska-bhattacharyya-4758101ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-github" style="font-size: 25px; color: black;"></i> </a><a href="https://www.linkedin.com/in/anouska-bhattacharyya-4758101ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="color: black;">linkdin Profile</a></p><br>
+                    <p><a href="https://www.linkedin.com/in/anouska-bhattacharyya-4758101ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-github" style="font-size: 25px; color: black;"></i> </a><a href="https://www.linkedin.com/in/anouska-bhattacharyya-4758101ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="color: black;">LinkdIn Profile</a></p><br>
                     <p id="bodytext">
                         You will find more info here -
                     </p>
-                    <a href="C:\Users\SAYANDIP\Downloads\Resume_Anouska.pdf" >
+                    <a href="D:\Resume\Resume_Anouska.pdf" >
                         <button class="btn" ><i class="fa fa-download"  ></i> Download CV</button>
-                    </a>
-                    
+                    </a>                    
             </div>
-
             </section>
-
             <section id="About">
                 <div>
-                    <img id="avatar" src="C:\Users\SAYANDIP\Downloads\processed-33cc1ae0-deb3-47ef-bf44-44bd15d43deb_wpAZZEfR.jpeg" alt="Avatar">
+                    <img id="avatar" src="https://th.bing.com/th/id/OIP.Eqnzd5ChduXHXwPkn1HHYQAAAA?rs=1&pid=ImgDetMain" alt="Avatar">
                 </div>
                 <div id="portpara">
                     <h2 style="font-size: 30px;">Technical Skill Sets.</h2>
                     <div style="height: .1px; width: 100%; background-color: rgb(151, 151, 151);"></div><br>
                     <p id="bodytext">
-                        I am learning constantly to be at a point to take the best jobs in the latest technology.<br><br>
-                        
+                        I am learning constantly to be at a point to take the best jobs in the latest technology.<br><br>                        
                     </p>
                     <p style="font-size: 25px;">
                         <img id="skilllogo"  src="https://cdn-icons-png.flaticon.com/512/29/29540.png">Java Servlet Pages
@@ -349,17 +335,14 @@
                     </p>
                     <p id="bodytext" style="padding-left: 0.5em;">
                         I only started DBMS cause it was in my curriculum. But I found it very interesting later on. Now it is catching to me.
-                    </p>
-                    
+                    </p>                    
                 </div> 
             </section>
-
             <section id="Interests">
                 <div>
                 <div id="card">
-                    <img id="avatar" src="C:\Users\SAYANDIP\Downloads\processed-2958856f-c4cf-4970-9017-c3ca1e87a513_X2uOnREw.jpeg" alt="Avatar">
-                    <p style="font-size: 20px;"></p>
-                    
+                    <img id="avatar" src="https://th.bing.com/th/id/OIP.gG6rMKg7FrSa_MfI_ZBLbwHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Avatar">
+                    <p style="font-size: 20px;"></p>                   
                 </div>
                 </div>
                 <div id="portpara">
@@ -371,12 +354,9 @@
                         I also have interest in Adventure and Detective strories. Wheather it is a story book or a audiobook I like to finish the whole series as soon as I can.<br><br>
                         While my peers may gravitate towards animated series, my interests lie in the rhythmic world of dance and the culinary arts. <br><br>
                         I am currently focused on mastering full stack web development to elevate my career prospects and broaden my skill set in the dynamic field of web technology.
-                    </p>
-                    
+                    </p>                   
             </div>
-
             </section>
-
             <section id="Contact">
                 <div>
                     <div id="fa">
@@ -385,14 +365,12 @@
                             Want to colaborate with me on something??<br><br>
                             Do not forget to leave a massage!!<br>
                         </p><br><br>
-
-
                         <p id="tag">
-                            <a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://mail.google.com&service=mail" style="color: white;"><i class="fa fa-envelope" style="font-size: 25px;"></i>cs.a.gmail.com</a><br><br>
+                            <a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://mail.google.com&service=mail" style="color: white;"><i class="fa fa-envelope" style="font-size: 25px;"></i> anouskab2001@gmail.com</a><br><br>
                             <a href="https://www.facebook.com/profile.php?id=100070069459571"><i class="fa fa-facebook-official" style="font-size: 25px;"></i></a>&emsp;&emsp;
-                            <a href="https://www.linkedin.com/in/akash-sarkar-070401204/"><i class="fa fa-linkedin" style="font-size: 25px;" ></i> </a>&emsp;&emsp;
-                            <a href="https://github.com/Neil-Azax"><i class="fa fa-github" style="font-size: 25px;"></i> </a>&emsp;&emsp;
-                            <a href="https://twitter.com/Neil_AzaX_CS"><i class="fa fa-twitter" style="font-size: 25px;"></i> </a>
+                            <a href="https://www.linkedin.com/in/akash-sarkar-070401204/"><i class="fa fa-linkedin" style="font-size: 25px;" ></i></a>&emsp;&emsp;
+                            <a href="https://github.com/Neil-Azax"><i class="fa fa-github" style="font-size: 25px;"></i></a>&emsp;&emsp;
+                            <a href="https://twitter.com/Neil_AzaX_CS"><i class="fa fa-twitter" style="font-size: 25px;"></i></a>
                         </p>
                     </div>
                     <div id="form">
@@ -400,13 +378,11 @@
                             <div id="s">
                                 <legend><h1>Leave A Massage</h1></legend>
                             </div>
-
                             <div id="t">
                                 <div style="padding: 20px;">
                                     <label for="firstname" class="label-tittle">Your Name:</label>
                                     <input type="text" name="fname" placeholder="enter your name" required="required" size="30px">
                                 </div>
-
                                 <div style="padding: 0px 20px  ;">
                                     <label for="email" class="label-tittle">Email:</label>
                                     <input type="text" name="email" placeholder="enter your email" required="required" size="38px"></br></br>
@@ -414,28 +390,21 @@
                                 <div style="padding: 0px 20px ;">
                                     <label class="label-tittle">Type massage:</label>
                                     <textarea name="message" rows="5" cols="38" placeholder="Message for me!!!"></textarea>
-                                </div>
-                                
+                                </div>                               
                                 <div style="margin-left: 75px; margin-top: 20px; ">
                                     <button type="reset" name="reset" value="reset">Reset</button>
                                     <button type="submit" name="login" value="Log In">Send</button>
-
-                                </div>
-                            
+                                </div>                            
                             </div>
                     </form>
                 </div>
-                </div>
-                
+                </div>               
             </section>
-
-
         </div>
         <script>
             function openNav() {
             document.getElementById("mySidepanel").style.width = "250px";
             }
-
             function closeNav() {
             document.getElementById("mySidepanel").style.width = "0";
             }
