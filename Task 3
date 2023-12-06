@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        .calculator {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin: 20px;
+        }
+
+        .display {
+            grid-column: span 4;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: right;
+            font-size: 2em;
+        }
+
+        button {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            font-size: 1.5em;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">0</div>
+        <button onclick="append('1')">1</button>
+        <button onclick="append('2')">2</button>
+        <button onclick="append('3')">3</button>
+        <button onclick="append('4')">4</button>
+        <button onclick="append('5')">5</button>
+        <button onclick="append('6')">6</button>
+        <button onclick="append('7')">7</button>
+        <button onclick="append('8')">8</button>
+        <button onclick="append('9')">9</button>
+        <button onclick="append('0')">0</button>
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="appendOperator('+')">+</button>
+        <button onclick="appendOperator('-')">-</button>
+        <button onclick="appendOperator('*')">*</button>
+        <button onclick="appendOperator('/')">/</button>
+        <button onclick="calculateResult()">=</button>
+    </div>
+    <script>
+        let display = document.querySelector('.display');
+        let operators = ['+', '-', '*', '/'];
+
+        function append(value) {
+            if (display.textContent === '0') {
+                display.textContent = value;
+            } else {
+                display.textContent += value;
+            }
+        }
+
+        function appendOperator(operator) {
+            if (!operators.includes(display.textContent.slice(-1))) {
+                display.textContent += operator;
+            }
+        }
+
+        function clearDisplay() {
+            display.textContent = '0';
+        }
+
+        function calculateResult() {
+            try {
+                display.textContent = eval(display.textContent);
+            } catch (error) {
+                display.textContent = 'Error';
+            }
+        }
+    </script>
+</body>
+</html>
