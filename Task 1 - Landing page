@@ -2,71 +2,99 @@
 
 <html>
 <head>
-    <title>Your Landing Page</title>
+    <title>Bookstore</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: lightgrey;
+            background-color: #f0f0f0;
         }
+
         header {
-            background: rgb(131,58,180);
-            background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,97,29,1) 17%, rgba(252,176,69,1) 100%); ;
+            background-color: #333;
             color: #fff;
-            padding: 1em;
+            padding: 20px;
             text-align: center;
         }
-        section {
-            max-width: 800px;
-            margin: 2em auto;
-            padding: 2em;
-            background-color: lightyellow;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        nav {
+            background-color: #333;
+            padding: 20px;
         }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
         footer {
-            background-color: lightcyan;
-            color: black;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
             text-align: center;
-            padding: 1em;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
         }
-        </style>
+
+        .book-img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .copyright {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Landing Page</h1>
-        <p>Welcome to our world of creativity!</p>
+        <h1>Welcome to Book-O-Logy</h1>
     </header>
-    <section>
-        <h2><u>About Us</u></h2>
-        <p><h4>We are passionate about achieving better results for our clients.</h3>
-        At CreaZone you can surf through the most affordable and pinterest-worthy stuffs for all age groups.<br> It is a hub for those who like to give an aesthetic elevation to their lives.</p>
-    <div>
-    <align="right"><img src="https://th.bing.com/th/id/R.3b954bc6ddc58972e639a2006a80ae46?rik=L%2bgdw6z3WqCkSQ&riu=http%3a%2f%2fmssbizsolutions.com%2fwp-content%2fuploads%2f2017%2f01%2fCreative-Thinking-Training-in-the-Philippines.jpg&ehk=rPCyHOoWqucSw4qjCGi5%2bgApbhMyBct%2fNk2Xt1Hzi2E%3d&risl=&pid=ImgRaw&r=0" alt="pic" height="200" width="200"/></align>
-    </div>
-    </section>
-    <section>
-        <h2><u>Our Services</u></h2>
-        <ol>
-            <li>Charms</li>
-            <li>Notebooks</li>
-            <li>Sipper bottles</li>
-            <li>Pouches</li>
-            <li>Cushions</li>
-            <li>Photo frames</li>
-            <li>Coffee mugs</li>
-        </ol>
-    </section>
-    <section>
-        <h2><u>Contact Us</u></h2>
-        <p>For more information, please contact us at <a href="mailto:creazone@gmail.com">creazone@gmail.com</a>.</p>
-    </section>
+    <nav>
+        <ul>
+            <li><a href="landing page.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <img src="https://static01.nyt.com/images/2017/05/11/t-magazine/bookstore-slide-2MCD/bookstore-slide-2MCD-superJumbo.jpg" alt="Bookstore" class="book-img">
+        <h2>Explore our collection of books</h2>
+        <ul>
+			<li>Comic</li>
+			<li>Fiction</li>
+			<li>Romance</li>
+			<li>Horror</li>
+			<li>Devotional</li>
+			<li>Fashion</li>
+			<li>Novel</li>
+			<li>Autobiography</li>
+			<li>Culinary</li>
+		</ul>
+    </main>
     <footer>
-        &copy; 2023 CreaZone
+        <p>&copy; 2022 Book-O-Logy. All rights reserved.</p>
     </footer>
+    <div class="copyright">
+        <p>Developed by Anouska Bhattacharyya</p>
+    </div>
 </body>
 </html>
 
@@ -144,7 +172,7 @@
         <ul>
             <li><a href="landing page.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
